@@ -501,16 +501,15 @@ padding: 5px 10px;
 
 .box-footer{  
   padding: 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  display: grid;  
+  grid-template-columns: 1fr auto;
 }
 .info-copy{
   color: #fff;
 }
 .footer-icons{
   display: flex;
-  justify-content: start; 
+  justify-content: end; 
   list-style: none; 
 }
 .footer-icons a{
