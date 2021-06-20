@@ -1,4 +1,8 @@
-const btnMobile = document.getElementById('btn-mobile');
+  window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
+  const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(event) {
   if (event.type === 'touchstart') event.preventDefault();
